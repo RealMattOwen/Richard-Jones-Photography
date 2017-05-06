@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'ChopinScript';
+  src: url("../fonts/ChopinScript.otf"); }
+
+.nav {
+  margin-left: 20.35%; }
+
+.navbar-default {
+  background-color: lightgrey;
+  border-color: transparent;
+  min-height: 40px;
+  height: 40px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-size: 14px;
+  line-height: 10px;
+  font-family: georgia, palatino, "book antiqua", "palatino linotype", serif; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: black; }
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent; }
+
+.email-top {
+  margin-left: 268px;
+  font-size: 15px !important;
+  font-family: 'Nunito', sans-serif !important;
+  color: black !important; }
+
+.number-top {
+  margin-left: 6px;
+  font-size: 15px !important;
+  font-family: 'Nunito', sans-serif !important;
+  color: black !important; }
+
+.fb-top {
+  margin-left: -11px;
+  position: relative;
+  top: -1.515px; }
+
+.icon-facebook {
+  font-size: 16px !important;
+  color: black !important; }
+
+.gap {
+  display: none;
+  position: absolute; }
+
+.services-menu {
+  height: 58px;
+  width: 139px;
+  background-color: lightgrey;
+  list-style-type: none;
+  margin-top: 2px;
+  padding: 4px 12px;
+  line-height: 26px;
+  margin-left: -40px; }
+
+.services-menu li a {
+  text-decoration: none;
+  color: white; }
+
+.services:hover .gap {
+  display: block; }
+
+.services-menu li a:hover {
+  color: black; }
+
+.header {
+  background-color: white;
+  height: 185px;
+  position: fixed;
+  top: 40px;
+  z-index: 99;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s; }
+
+.smallheader {
+  background-color: white;
+  height: 90px;
+  position: fixed;
+  top: 40px;
+  z-index: 999;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s; }
+
+.logo {
+  margin-top: 35px;
+  width: 9.3%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.smalllogo {
+  margin-top: 4px;
+  width: 7%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.name {
+  color: #3A3B3F;
+  font-size: 24px;
+  margin-top: 0px;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.smallname {
+  color: #3A3B3F;
+  font-size: 14px;
+  margin-top: -4px;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+#top {
+  background-color: #3a3b3f;
+  height: 1110px;
+  margin-top: 154px;
+  color: white; }
+
+#cym {
+  font-family: 'ChopinScript';
+  font-size: 60px;
+  position: relative;
+  top: 80px;
+  margin-left: 23%; }
+
+#myservices {
+  margin-top: 80px;
+  margin-left: 24%;
+  font-size: 15px; }
+
+#photobooths {
+  width: 28%;
+  margin-top: 95px;
+  margin-left: 20.5%;
+  display: inline-block; }
+
+#pbtitle {
+  background-color: white;
+  color: black;
+  height: 134px;
+  font-size: 24px;
+  padding: 40px 0; }
+
+#pbimg {
+  width: 100%; }
+
+#weddingportraits {
+  width: 28%;
+  margin-top: 95px;
+  margin-left: 4%;
+  display: inline-block; }
+
+#wptitle {
+  background-color: white;
+  color: black;
+  height: 134px;
+  font-size: 24px;
+  padding: 40px 0; }
+
+#wpimg {
+  width: 100%; }
+
+.viewmore {
+  width: 22%;
+  border: 1px solid white;
+  padding: 10px 0;
+  margin-top: 60px;
+  margin-left: 39%;
+  transition: .4s ease; }
+
+.viewmore:hover {
+  background-color: white;
+  border: 1px solid white;
+  transition: .4s ease; }
+
+.viewmore > a {
+  text-decoration: none;
+  color: white; }
+
+.viewmore:hover > a {
+  color: black; }
+
+#contactcontainer {
+  width: 8%;
+  margin-top: 60px;
+  margin-left: 46%;
+  background-color: #3a3b3f; }
+
+#contact {
+  border: 1px solid white;
+  background-color: white;
+  padding: 11px 0;
+  font-size: 15px;
+  transition: .4s ease; }
+
+#contactoverlay {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute; }
+
+#contactcontainer:hover #contact {
+  opacity: 0.4; }
+
+#contactcontainer:hover #contactoverlay {
+  opacity: 1; }
+
+#contactcontainer > a {
+  text-decoration: none;
+  color: black; }
+
+#bottom {
+  height: 140px;
+  background-color: #efece2; }
+
+.email-bottom {
+  margin-top: 30px;
+  font-size: 15px;
+  color: black; }
+
+.number-bottom {
+  margin-top: 4px;
+  font-size: 15px;
+  color: black; }
+
+.fb-bottom {
+  margin-top: 20px;
+  text-decoration: none; }
+
+.fb-bottom:hover,
+.fb-bottom:focus {
+  color: black;
+  text-decoration: none; }
+
+footer {
+  padding: 10px 0px; }

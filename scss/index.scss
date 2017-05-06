@@ -1,0 +1,265 @@
+@font-face {
+	font-family: 'ChopinScript';
+	src: url("../fonts/ChopinScript.otf");
+}
+
+@mixin images {
+	height: 267px;
+	width: 267px;
+}
+
+.nav {
+	margin-left: 332px;
+}
+
+.navbar-default {
+	background-color: lightgrey;
+	border-color: transparent;
+	min-height: 40px;
+	height: 40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-size: 14px;
+	line-height: 10px;
+	font-family: georgia, palatino, "book antiqua", "palatino linotype", serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: black;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+}
+
+.email-top {
+	margin-left: 268px;
+	font-size: 15px !important;
+	font-family: 'Nunito', sans-serif !important;
+	color: black !important;
+}
+
+.number-top {
+	margin-left: 6px;
+	font-size: 15px !important;
+	font-family: 'Nunito', sans-serif !important;
+	color: black !important;
+}
+
+.fb-top {
+	margin-left: -11px;
+	position: relative;
+	top: -1.515px;
+}
+
+.icon-facebook {
+	font-size: 16px !important;
+	color: black !important;
+}
+
+.gap {
+	display: none;
+	position: absolute;
+}
+
+.services-menu {
+	height: 58px;
+	width: 139px;
+	background-color: lightgrey;
+	list-style-type: none;
+	margin-top: 2px;
+	padding: 4px 12px;
+	line-height: 26px;
+	margin-left: -40px;
+}
+
+.services-menu li a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+.services:hover .gap {
+	display: block;
+}
+
+.services-menu li a:hover {
+	color: black;
+}
+
+#header {
+	background-color: white;
+	height: 185px;
+	position: fixed;
+	top: 40px;
+	z-index: 99;
+}
+
+#logo {
+	margin-top: 35px;
+}
+
+#name {
+	color: #3A3B3F;
+	font-size: 24px;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#top {
+	background-color: rgb(58, 59, 63);
+	height: 1110px;
+	margin-top: 154px;
+	color: white;
+}
+
+#welcome {
+	font-size: 88px;
+	margin-top: 70px;
+	line-height: 110px;
+}
+
+#CLGM {
+	font-family: 'ChopinScript';
+	font-size: 40px;
+}
+
+#topimage {
+	margin-top: 50px;
+}
+
+#gallery {
+	margin-top: 80px;
+}
+
+#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9 {
+	@include images;
+	opacity: 1;
+	transition: .4s ease;
+}
+
+#image1container,#image2container,#image3container,#image4container,#image5container,#image6container,#image7container,#image8container,#image9container {
+	display: inline-block;
+	background-color: rgb(58, 59, 63);
+}
+
+#image1overlay,#image2overlay,#image3overlay,#image4overlay,#image5overlay,#image6overlay,#image7overlay,#image8overlay,#image9overlay {
+	transition: .4s ease;
+	opacity: 0;
+	position: absolute;
+}
+
+#image1container:hover #image1 {
+	opacity: 0.4;
+}
+
+#image2container:hover #image2 {
+	opacity: 0.4;
+}
+
+#image3container:hover #image3 {
+	opacity: 0.4;
+}
+
+#image4container:hover #image4 {
+	opacity: 0.4;
+}
+
+#image5container:hover #image5 {
+	opacity: 0.4;
+}
+
+#image6container:hover #image6 {
+	opacity: 0.4;
+}
+
+#image7container:hover #image7 {
+	opacity: 0.4;
+}
+
+#image8container:hover #image8 {
+	opacity: 0.4;
+}
+
+#image9container:hover #image9 {
+	opacity: 0.4;
+}
+
+#image1container:hover #image1overlay {
+	opacity: 1;
+	background-color: grey;
+}
+
+#image2container:hover #image2overlay {
+	opacity: 1;
+}
+
+#image3container:hover #image3overlay {
+	opacity: 1;
+}
+
+#image4container:hover #image4overlay {
+	opacity: 1;
+}
+
+#image5container:hover #image5overlay {
+	opacity: 1;
+}
+
+#image6container:hover #image6overlay {
+	opacity: 1;
+}
+
+#image7container:hover #image7overlay {
+	opacity: 1;
+}
+
+#image8container:hover #image8overlay {
+	opacity: 1;
+}
+
+#image9container:hover #image9overlay {
+	opacity: 1;
+}
+
+#bottom {
+	height: 140px;
+	background-color: #efece2;
+	margin-top: 960px;
+	border-top: 2px solid #d4d1c9;
+}
+
+.email-bottom {
+	margin-top: 30px;
+	font-size: 15px;
+	color: black;
+}
+
+.number-bottom {
+	margin-top: 4px;
+	font-size: 15px;
+	color: black;
+}
+
+.fb-bottom {
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.fb-bottom:hover,
+.fb-bottom:focus {
+	color: black;
+	text-decoration: none;
+}
+
+footer {
+	padding: 10px 0px;
+}

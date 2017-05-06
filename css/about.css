@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'ChopinScript';
+  src: url("../fonts/ChopinScript.otf"); }
+
+.nav {
+  margin-left: 20.35%; }
+
+.navbar-default {
+  background-color: lightgrey;
+  border-color: transparent;
+  min-height: 40px;
+  height: 40px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-size: 14px;
+  line-height: 10px;
+  font-family: georgia, palatino, "book antiqua", "palatino linotype", serif; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: black; }
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent; }
+
+.email-top {
+  margin-left: 268px;
+  font-size: 15px !important;
+  font-family: 'Nunito', sans-serif !important;
+  color: black !important; }
+
+.number-top {
+  margin-left: 6px;
+  font-size: 15px !important;
+  font-family: 'Nunito', sans-serif !important;
+  color: black !important; }
+
+.fb-top {
+  margin-left: -11px;
+  position: relative;
+  top: -1.515px; }
+
+.icon-facebook {
+  font-size: 16px !important;
+  color: black !important; }
+
+.gap {
+  display: none;
+  position: absolute; }
+
+.services-menu {
+  height: 58px;
+  width: 139px;
+  background-color: lightgrey;
+  list-style-type: none;
+  margin-top: 2px;
+  padding: 4px 12px;
+  line-height: 26px;
+  margin-left: -40px; }
+
+.services-menu li a {
+  text-decoration: none;
+  color: white; }
+
+.services:hover .gap {
+  display: block; }
+
+.services-menu li a:hover {
+  color: black; }
+
+.header {
+  background-color: white;
+  height: 185px;
+  position: fixed;
+  top: 40px;
+  z-index: 99;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s; }
+
+.smallheader {
+  background-color: white;
+  height: 90px;
+  position: fixed;
+  top: 40px;
+  z-index: 999;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s; }
+
+.logo {
+  margin-top: 35px;
+  width: 9.3%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.smalllogo {
+  margin-top: 4px;
+  width: 7%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.name {
+  color: #3A3B3F;
+  font-size: 24px;
+  margin-top: 0px;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.smallname {
+  color: #3A3B3F;
+  font-size: 14px;
+  margin-top: -4px;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+#top {
+  background-color: #3a3b3f;
+  height: 1110px;
+  margin-top: 154px;
+  color: white; }
+
+#topimage {
+  margin-top: 80px; }
+
+#about {
+  background-color: white;
+  position: relative;
+  top: 546px;
+  margin: 0 auto;
+  width: 58%;
+  height: 480px; }
+
+#mam {
+  color: black;
+  position: relative;
+  top: -640px;
+  margin-left: 27.5%;
+  width: 50%;
+  font-family: 'ChopinScript';
+  font-size: 60px; }
+
+#aboutme {
+  color: black;
+  position: relative;
+  top: -550px;
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  line-height: 26px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px; }
+
+#bottom {
+  height: 140px;
+  background-color: #efece2; }
+
+.email-bottom {
+  margin-top: 30px;
+  font-size: 15px;
+  color: black; }
+
+.number-bottom {
+  margin-top: 4px;
+  font-size: 15px;
+  color: black; }
+
+.fb-bottom {
+  margin-top: 20px;
+  text-decoration: none; }
+
+.fb-bottom:hover,
+.fb-bottom:focus {
+  color: black;
+  text-decoration: none; }
+
+footer {
+  padding: 10px 0px; }

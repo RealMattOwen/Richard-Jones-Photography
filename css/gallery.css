@@ -1,0 +1,71 @@
+#buttons {
+  margin-top: 36px; }
+
+.icon-angle-left {
+  font-size: 24px;
+  margin-left: 84%; }
+
+.icon-angle-right {
+  font-size: 24px;
+  margin-left: 1.2%; }
+
+#back {
+  font-size: 30px;
+  margin-left: 4.3%; }
+
+.icon-angle-left,
+.icon-angle-right,
+#back,
+.icon-angle-left:hover,
+.icon-angle-right:hover,
+#back:hover,
+.icon-angle-left:focus,
+.icon-angle-right:focus,
+#back:focus {
+  color: black;
+  text-decoration: none; }
+
+.image0 {
+  margin-top: 30px;
+  margin-left: 34.5%;
+  width: 30.5%; }
+
+.image1 {
+  margin-top: 20px;
+  margin-left: 15.5%;
+  width: 68%; }
+
+.image2 {
+  margin-top: 16px;
+  margin-left: 22.5%;
+  width: 55%; }
+
+.image3 {
+  margin-top: 16px;
+  margin-left: 15.5%;
+  width: 70%; }
+
+.image4 {
+  margin-top: 20px;
+  margin-left: 34.5%;
+  width: 30%; }
+
+.image5 {
+  margin-top: 20px;
+  margin-left: 34.5%;
+  width: 30%; }
+
+.image6 {
+  margin-top: 20px;
+  margin-left: 34.5%;
+  width: 30%; }
+
+.image7 {
+  margin-top: 20px;
+  margin-left: 32%;
+  width: 36%; }
+
+.image8 {
+  margin-top: 16px;
+  margin-left: 15.5%;
+  width: 68%; }
